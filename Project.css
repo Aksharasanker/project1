@@ -7,11 +7,11 @@
   background-color: rgb(224, 214, 214);
 }*/
 .home{
-    background-image:url("https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/023/010/450/non_2x/the-cup-of-latte-coffee-with-heart-shaped-latte-art-and-ai-generated-free-photo.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-position: bottom;
    
 }
@@ -22,12 +22,30 @@
 
 
 .navbar{
-    width:85%;
+    width:100%;
     display:flex;
-    justify-content:space-between;
-    margin-left: 20px;
-    
+    margin-left: 300px;
+   
+   
+   
+  }
+
+ #logo{
+  margin-right: 30px;
+  margin-left:500px;
  }
+ .linkitem{
+  display: inline-block;
+  margin: 30px 20px;
+  font-size: larger;
+  
+}
+.links{
+    text-decoration: none;
+    color:white;
+    font-weight:bolder;
+    
+}
 .circles{
   display: flex;
 }
@@ -51,18 +69,7 @@
 }
 
 
-.linkitem{
-    display: inline-block;
-    margin:50px 20px;
-    font-size: larger;
-    
-}
-  .links{
-      text-decoration: none;
-      color:black;
-      font-weight:bolder;
-      
-  }
+
   #about img{
     margin-left: 40px;
     padding: 20px;
@@ -90,12 +97,16 @@
     border-radius: 30px;
     text-align: center;
     margin: 10px 20px;
+    position: relative;
+    width:25%;
+    float:left;
 }
 #card i{
  margin-top: 150px;
  color:gray
  
 }
+
 .menu{
     display: flex;
 }
@@ -103,35 +114,70 @@
     border-radius: 20px; 
     height: 200px;  
 }
-button{
-    color: white;
-    background-color: green;
-    border-radius: 10px;
-    width:120px;
-    border-radius: 0px green;
+
+
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px rgb(106, 105, 105);
 }
 
-form{
-  margin-left:8% ;
+.review{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color:rgba(171, 98, 30, 0.321) ;
+ 
+  
+}
+#p1{
+  text-align: justify;
+  width: 80%;margin-left:10px ;
   margin-top: 50px;
-  border: 1px solid grey;
+  padding: 20px;
+
+}
+#p2{
+  text-align: justify;
+  width: 80%;margin-left:10px ;
+  margin-top: 50px;
+  padding: 20px;
+
+}
+form{
+ 
+    margin-left:10px ;
+    margin-top: 50px;
+    border: 1px solid grey;
+    width: 80%;
+    margin-bottom:50px;
+    text-align: left;
+    padding:10px 10px 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(219, 228, 231, 0.492);
+    box-shadow: 0 5px rgb(162, 159, 159);
+} 
+#input{
   width: 300px;
-  height: 150px;
-  text-align: center;
-  padding:30px 30px 50px 30px;
-  border-radius: 5px;
-  background-color: rgba(219, 228, 231, 0.492);
-}
-#email{
-  width: 250px;
   height: 30px;
-  border-radius: 1px;
+  border-radius: 10px ;
+  outline: none;
+  border: none;
 }
-#password{
-  width: 250px;
-  height: 30px;
-  border-radius: 1px;
-}
+
+
+  
+
+
 footer{
   background-image:url('https://img.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?w=996&t=st=1707922568~exp=1707923168~hmac=4d42441d1a1662fc5916a0128d528c895b966ef309b0c7c646b5d1b6b85367d9');
   background-size: cover;
